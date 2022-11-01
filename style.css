@@ -16,6 +16,9 @@ nav {
 }
 .logo {
   margin: 0;
+  align-self: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.45rem;
 }
 .nav-list {
   list-style: none;
