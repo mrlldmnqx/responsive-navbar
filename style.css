@@ -1,0 +1,31 @@
+:root {
+  --bg-color: rgb(24, 24, 24);
+  --font-color: rgb(255, 252, 244);
+}
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  background-color: var(--bg-color);
+  color: var(--font-color);
+
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  margin: 0;
+}
+.nav-list {
+  list-style: none;
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+.nav-list a {
+  text-decoration: none;
+}
+.nav-list a:visited {
+  color: var(--font-color);
+}
