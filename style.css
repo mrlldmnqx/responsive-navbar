@@ -20,6 +20,21 @@ nav {
   font-size: 1.5rem;
   letter-spacing: 0.45rem;
 }
+.toggle-button {
+  cursor: pointer;
+  display: grid;
+  align-items: center;
+  align-self: center;
+  padding: 0;
+  height: 2rem;
+}
+.bar {
+  margin: 0;
+
+  background-color: var(--font-color);
+  width: 2rem;
+  height: 0.3rem;
+}
 .nav-list {
   list-style: none;
   width: 60%;
