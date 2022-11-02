@@ -1,5 +1,7 @@
 console.log("hello");
 
-document.querySelector(".toggle-button").addEventListener("click", () => {
-  console.log("clicked");
+const toggleBtn = document.querySelector(".toggle-button");
+const navList = document.querySelector(".nav-list");
+toggleBtn.addEventListener("click", () => {
+  navList.toggleAttribute("toggle");
 });
